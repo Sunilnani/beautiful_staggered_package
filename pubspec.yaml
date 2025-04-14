@@ -15,6 +15,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  collection: ^1.16.0  # Add this dependency
+
 
 dev_dependencies:
   flutter_test:
