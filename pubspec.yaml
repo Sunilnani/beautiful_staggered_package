@@ -1,9 +1,9 @@
 name: beautiful_staggered_grid_view
 description: A beautiful and customizable staggered grid view package for Flutter.
 version: 1.0.0+1
-homepage: https://github.com/your_username/beautiful_staggered_grid_view
-repository: https://github.com/your_username/beautiful_staggered_grid_view
-issue_tracker: https://github.com/your_username/beautiful_staggered_grid_view/issues
+homepage: https://github.com/Sunilnani/beautiful_staggered_package
+repository: https://github.com/Sunilnani/beautiful_staggered_package
+issue_tracker: https://github.com/Sunilnani/beautiful_staggered_package/issues
 keywords:
   - grid
   - staggered

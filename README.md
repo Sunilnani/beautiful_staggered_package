@@ -11,7 +11,7 @@ A customizable, beautiful staggered grid view package for Flutter. Use it to eas
 
 ## Getting Started
 
-## Installation
+### Installation
 
 Add the following dependency to your `pubspec.yaml`:
 
@@ -21,51 +21,3 @@ dependencies:
 
 
 
-dependencies:
-  beautiful_staggered_grid_view: ^1.0.0
-
-
-
-### d. Usage
-
-Provide a full, self-contained example with code snippets. For instance, show how to set up an example app.
-
-```markdown
-## Usage Example
-
-Below is a full example of how to use the package:
-
-```dart
-import 'package:flutter/material.dart';
-import 'package:beautiful_staggered_grid_view/beautiful_staggered_grid_view.dart';
-
-void main() {
-  runApp(const MyApp());
-}
-
-class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Staggered Grid View Demo',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: const ExampleHomePage(),
-    );
-  }
-}
-
-class ExampleHomePage extends StatelessWidget {
-  const ExampleHomePage({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(title: const Text('Staggered Grid Example')),
-      body: StaggeredPage(),  // This widget is exported from the package.
-    );
-  }
-}
